@@ -1,0 +1,2 @@
+usr/local/bin/bitcoincardd usr/bin
+usr/local/bin/bitcoincard-cli usr/bin

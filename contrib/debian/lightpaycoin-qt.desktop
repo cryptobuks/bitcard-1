@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoincard
+Comment=Bitcoincard P2P Cryptocurrency
+Comment[fr]=Bitcoincard, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bitcoincard, eşten eşe kriptografik sanal para birimi
+Exec=bitcoincard-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoincard128
+MimeType=x-scheme-handler/bitcoincard;
+Categories=Office;Finance;

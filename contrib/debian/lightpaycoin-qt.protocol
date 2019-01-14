@@ -1,0 +1,11 @@
+[Protocol]
+exec=bitcoincard-qt '%u'
+protocol=bitcoincard
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

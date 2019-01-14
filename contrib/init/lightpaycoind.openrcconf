@@ -1,0 +1,26 @@
+# /etc/conf.d/bitcoincardd: config file for /etc/init.d/bitcoincardd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitcoincard/bitcoincard.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitcoincardd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoincardd.pid"
+
+# Where to write bitcoincardd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitcoincardd"
+
+# User and group to own bitcoincardd process
+#BITCOIND_USER="bitcoincard"
+#BITCOIND_GROUP="bitcoincard"
+
+# Path to bitcoincardd executable
+#BITCOIND_BIN="/usr/bin/bitcoincardd"
+
+# Nice value to run bitcoincardd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
